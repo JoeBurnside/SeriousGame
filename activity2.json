@@ -1,0 +1,27 @@
+{"quizlist":[
+      {
+      "question":"If your former employer declines to give you work, what should you ask them for?",
+      "option1":"A Reference Letter",
+      "option2":"Money",
+      "option3":"Their CV"
+      },
+      {
+      "question":"Can former prisoners claim Job Seekers Allowance?",
+      "option1":"Yes",
+      "option2":"No",
+      "option3":"Only if they promise to pay it back"
+      },
+	  {
+      "question":"Where is not a good place to look for work?",
+      "option1":"Down the back of the sofa",
+      "option2":"Gumtree",
+      "option3":"The Local Newspaper"
+      },
+      {
+      "question":"Do you have to include your criminal record in job applications?",
+      "option1":"Only if specifically asked",
+      "option2":"No",
+      "option3":"Yes"
+      }
+      ]
+      }
