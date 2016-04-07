@@ -1,21 +1,27 @@
 {"quizlist":[
       {
-      "question":"Question 1",
-      "option1":"Smart Answer",
-      "option2":"Dummy Answer",
-      "option3":"Dummy Answer"
+      "question":"What should you wear for a job interview?",
+      "option1":"Shirt and Tie",
+      "option2":"Jeans",
+      "option3":"Tracksuit and Trainers"
       },
       {
-      "question":"Question 2",
-      "option1":"Smart Answer",
-      "option2":"Dummy Answer",
-      "option3":"Dummy Answer"
+      "question":"Where should you ask if you need help with interview clothing and transport costs?",
+      "option1":"The Job Centre",
+      "option2":"Your Parole Officer",
+      "option3":"The Local Pub"
+      },
+	  {
+      "question":"What is not a good idea before a Job Interview?",
+      "option1":"Get drunk",
+      "option2":"Do some research",
+      "option3":"Prepare some questions"
       },
       {
-      "question":"Question 3",
-      "option1":"Smart Answer",
-      "option2":"Dummy Answer",
-      "option3":"Dummy Answer"
+      "question":"How should you try to end your interview?",
+      "option1":"On a positive note",
+      "option2":"A round of applause",
+      "option3":"With a song"
       }
       ]
       }

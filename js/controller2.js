@@ -59,7 +59,7 @@ function displayFinalSlide(){
 
 	$(stage).append(" <div class='questionText' >You have finished the quiz!<br><br>Total questions: "+numberOfQuestions+"<br>Correct answers: "+score+"</div>");
 	if(numberOfQuestions > score){
-		$(stage).append(" <p>You must get all answers correct in order to continue</p><br /><div> <a href=\"page2.html\"><div class='option'>Try Again</div></a> </div>");
+		$(stage).append(" <div class='questionText' >You must get all answers correct in order to continue</div><br /><div> <a href=\"page2.html\"><div class='option'>Try Again</div></a> </div>");
 	}
 	else{
 		$(stage).append(" <div> <a href=\"page3.html\"><div class='option'>Next Page</div></a> </div>");

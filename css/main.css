@@ -31,6 +31,10 @@ h2 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
 }
+.bgBlack {
+		background-color: rgba(0,0,0,0.75);
+		padding-bottom:1px;
+	}
 .loading {
 	background: url('../img/ico_loading.gif') no-repeat center center;
 }
@@ -58,24 +62,6 @@ main {
 	width: 100%;
 }
 
-#slide-1 .bcg {background-image:url('../img/slide-1.jpg')}
-#slide-2 .bcg {background: none; background-color: #010101; height: 310px; text-align: center}
-#slide-3 .bcg {background-image:url('../img/slide-2.jpg')}
-#slide-4 .bcg {background-image:url('../img/slide-3.jpg')}
-#slide-5 .bcg {background: none; background-color: #010101; height: 310px; text-align: center}
-#slide-6 .bcg {background-image:url('../img/slide-4.jpg')}
-#slide-7 .bcg {background: none; background-color: #010101; height: 310px; text-align: center}
-#slide-8 .bcg {background-image:url('../img/slide-5.jpg')}
-
-.curtainContainer {width: 100%; height: 100%; position: relative;}
-.curtainContainer .curtain {width: 300%; height: 1px; background-color: #000000; position: absolute; top: 25%; left: 0; opacity: 0}
-.curtainContainer .copy {position: absolute; bottom: 30%; left: 0; width: 100%; text-align: center;}
-
-#slide-9 {position: relative;}
-#slide-9 .bcg {background-image:url('../img/slide-6.jpg')}
-#slide-9 .bcg2 {background-image:url('../img/slide-6b.jpg'); position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 1}
-#slide-9 .bcg3 {background: none; background-color: #010101; z-index: 2;  position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 2}
-
 .hsContainer {
 	display: table;
 	table-layout: fixed;
@@ -96,29 +82,32 @@ main {
 }
 	.hsContent h2,
 	.copy h2 {
+		width: 1050px;
 		color: #ffffff;
 		font-size: 45px;
 		line-height: 48px;
 		margin-bottom: 12px;
-	}
-	.hsContent p {
-		width: 400px;
 		margin: 0 auto;
-		color: #b2b2b2;
+		text-shadow:
+       2px 2px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 	}
-	.hsContent a {
-		color: #b2b2b2;
-		text-decoration: underline;
+	.hsContent p,
+    .copy p	{
+		width: 950px;
+		font-size: 28px;
+		margin: 0 auto;
+		color: #ffffff;
+		text-shadow:
+       2px 2px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 	}
-	.bgBlack {
-		background-color: rgba(0,0,0,0.75);
-		padding: 3px 10px;
-	}
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
     tr,
     img {
         page-break-inside: avoid;
@@ -168,17 +157,29 @@ main {
       width:400px;
 	  margin-left: auto ;
 	  margin-right: auto ;
-      height:30px;
+      height:32px;
       margin-top:15px;
 	  margin-bottom:15px;
-      font-size:18px;
+      font-size:28px;
       color:#FFFFFF;
-      padding:2px;
+	  text-shadow:
+       2px 2px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+      padding:10px;
       padding-left:10px;
       border: 2px solid white;
       cursor:pointer;
-      background-color:#3399FF;
+      background-color:#990033;
       }
+	  a:link {
+		  text-decoration: none;
+	  }
+	  a:visited {
+		  text-decoration: none;
+	  }
 	.option:hover{
       border:#FC0 solid 2px;
       color:#FC0;
@@ -206,6 +207,12 @@ main {
       background-color:#009900;
       font-family:Arial, Helvetica, sans-serif;
       text-align:center;
+	  text-shadow:
+       2px 2px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
       }
            
 	.feedback2{
@@ -218,5 +225,12 @@ main {
       background-color:#CC3300;
       font-family:Arial, Helvetica, sans-serif;
       text-align:center;
+	  text-shadow:
+       2px 2px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
       }
+    
 
